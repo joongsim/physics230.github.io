@@ -1,7 +1,39 @@
 html {
+    background-color: rgb(159, 168, 177);
     font-family: 'Roboto', sans-serif;
 }
 
-ul {
+body {
+    background-color: white;
+    padding: 10px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+div {
+    
+    margin: 0px auto 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    background-color: rgb(159, 168, 177);
+    color: white;
+    text-align: center;
+}
+
+li {
+    line-height: 2em;
+}
+
+li.chapter {
+    border-color: rgb(159, 168, 177);
+    border-style: solid;
+    border-width: 2px;
+    list-style: none;
+    padding: 5px;
+}
+
+li.section {
     list-style: none;
 }
