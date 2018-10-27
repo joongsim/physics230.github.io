@@ -1,44 +1,24 @@
 html {
-    background-color: rgb(159, 168, 177);
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: white;
-    padding: 10px;
-    margin: 0px auto;
-    width: 90%;
+.page {
+    margin: auto;
 }
 
-div {
-    
-    margin: 0px auto 10px auto;
-    padding: 10px;
-}
-
-h1 {
-    background-color: rgb(159, 168, 177);
-    color: white;
-    text-align: center;
+div.body {
+    margin: 10px auto 10px auto;
 }
 
 h2 {
     text-align: center;
 }
 
-li {
-    line-height: 2em;
-}
 
-li.chapter {
-    border-color: rgb(159, 168, 177);
-    border-style: solid;
-    border-width: 2px;
-    list-style: none;
-    margin: 2px;
-    padding: 5px;
-}
-
-li.section {
-    list-style: none;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }

@@ -1,58 +1,111 @@
 <!DOCTYPE html>
 <head>
     <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>PHYS 230</title>
     <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
 </head>
 <body>
-    <div class='page'>
-        <div class='header'>
-                <h1>PHYS 230</h1>
-                <p>Welcome to the online study guide for PHYS 230<br>
-                    Under construction!</p>
-                <hr>
+
+    <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <a class='navbar-brand' href='/'>Home</a>
+    </nav>
+    <div class='jumbotron jumbotron-fluid'>
+        <div class='container'>
+            <h1>PHYS 230</h1>
+            <hr>
+            <p>Welcome to the online study guide for PHYS 230<br>
+                <small class='text-muted'>Under construction!</small>
+            </p>       
+        </div>     
+    </div>
+    <div class='container-fluid text-center body'>           
+        <h2>Exam 2</h2>
+        <hr>        
+        <p>
+            <a class='btn btn-dark btn-block' data-toggle='collapse' href='#collapse20' role='button' aria-expanded='false' aria-controls='collapse20'>
+                Chapter 20: Second Law of Thermodynamics
+            </a>
+        </p>
+        <div class='collapse' id='collapse20'>
+            <div class='list-group list-group-flush'>
+                <a href='topics/entropy.html' class='list-group-item list-group-item-action'>Entropy</a>
+                <a href='topics/slot.html' class='list-group-item list-group-item-action'>Second Law of Thermodynamics</a>
             </div>
-            
-            <div class='list'>
-                <h2>Exam 2 Topics Covered</h2>
-                <ul>
-                    <li class='chapter'>Chapter 20: Second Law of Thermodynamics</li>
-                    <ul>
-                        <li class='section'><a href='topics/entropy.html'>Entropy</a></li>
-                        <li class='section'><a href='topics/slot.html'>Second Law of Thermodynamics</a></li>
-                    </ul>
-                    <li class='chapter'>Chapter 21: Electric Charge and Electric Field</li>
-                    <ul>
-                        <li class='section'><a href='topics/electric-charge.html'>Electric Charge</a></li>
-                        <li class='section'><a href='topics/insulators-and-conductors.html'>Insulators and Conductors</a></li>
-                        <li class='section'><a href='topics/coulombs-law.html'>Coulomb's Law</a></li>
-                        <li class='section'><a href='topics/electric-field.html'>Electric Field</a></li>
-                        <li class='section'><a href='topics/electric-field-lines.html'>Electric Field Lines</a></li>
-                    </ul>
-                    <li class='chapter'>Chapter 22: Gauss's Law</li>
-                    <ul>
-                        <li class='section'><a href='topics/electric-flux.html'>Electric Flux</a></li>
-                        <li class='section'><a href='topics/gauss-law.html'>Gauss's Law</a></li>
-                        <li class='section'><a href='topics/symmetries.html'>Common Symmetries</a></li>
-                        <li class='section'><a href='topics/gauss-conductors.html'>Gauss's Law and Conductors</a></li>
-                    </ul>
-                    <li class='chapter'>Chapter 23: Electric Potential</li>
-                    <ul>
-                        <li class='section'><a href='topics/pe-ke.html'>Potential Energy and Kinetic Energy</a></li>
-                        <li class='section'><a href='topics/electric-potential.html'>Electric Potential</a></li>
-                        <li class='section'><a href='topics/ep-from-ef.html'>Electric Potential from Electric Field</a></li>
-                        <li class='section'><a href='topics/ep-from-pt-and-dist'>Electric Potential from Point Charges and Charge Distributions</a></li>
-                        <li class='section'><a href='topics/ep-from-potential'>Electric Field from Potential</a></li>
-                    </ul>
-                    <li class='chapter'>Chapter 24: Capacitance, Dielectrics, Electric Energy Storage</li>
-                    <ul>
-                        <li class='section'><a href='topics/capacitors.html'>Capacitors and Related Circuit Symbols</a></li>
-                        <li class='section'><a href='topics/capacitance.html'>Capacitance and How to Find It</a></li>
-                    </ul>
-                </ul>   
+        </div>
+        <p>
+            <a class='btn btn-dark btn-block' data-toggle='collapse' href='#collapse21' role='button' aria-expanded='false' aria-controls='collapse20'>
+                Chapter 21: Electric Charge and Electric Field
+            </a>
+        </p>
+            <div class='collapse' id='collapse21'>
+                <div class='list-group list-group-flush'>
+                    <a href='topics/electric-charge.html' class='list-group-item list-group-item-action'>Electric Charge</a>
+                    <a href='topics/insulators-and-conductors.html' class='list-group-item list-group-item-action'>Insulators and Conductors</a>
+                    <a href='topics/coulombs-law.html' class='list-group-item list-group-item-action'>Coulomb's Law</a>
+                    <a href='topics/electric-field.html' class='list-group-item list-group-item-action'>Electric Field</a>
+                    <a href='topics/electric-field-lines.html' class='list-group-item list-group-item-action'>Electric Field Lines</a>
+                </div>
+            </div>
+            <p>
+            <a class='btn btn-dark btn-block' data-toggle='collapse' href='#collapse22' role='button' aria-expanded='false' aria-controls='collapse20'>
+                Chapter 21: Electric Charge and Electric Field
+            </a>
+        </p>
+            <div class='collapse' id='collapse22'>
+                <div class='list-group list-group-flush'>
+                    <a href='topics/electric-flux.html' class='list-group-item list-group-item-action'>Electric Flux</a>
+                    <a href='topics/gauss-law.html' class='list-group-item list-group-item-action'>Gauss's Law</a>
+                    <a href='topics/symmetries.html' class='list-group-item list-group-item-action'>Common Symmetries</a>
+                    <a href='topics/gauss-conductors.html' class='list-group-item list-group-item-action'>Gauss's Law and Conductors</a>
+                </div>
             </div>
     </div>
-    
+
+<!--
+        <ul>
+            <li class='list-group-item'>Chapter 20: Second Law of Thermodynamics<li>
+            <button data-toggle='collapse' data-target='#20'>Chapter 20: Second Law of Thermodynamics</button>
+            <div id='20' class = 'collapse'>
+                <a href='topics/entropy.html' class='list-group-item list-group-item-action'>Entropy</a>
+                <li class='section'><a href='topics/slot.html'>Second Law of Thermodynamics</a></li>
+            </div>
+            <li class='list-group-item'>Chapter 21: Electric Charge and Electric Field</li>
+            <ul>
+                <li class='section'><a href='topics/electric-charge.html'>Electric Charge</a></li>
+                <li class='section'><a href='topics/insulators-and-conductors.html'>Insulators and Conductors</a></li>
+                <li class='section'><a href='topics/coulombs-law.html'>Coulomb's Law</a></li>
+                <li class='section'><a href='topics/electric-field.html'>Electric Field</a></li>
+                <li class='section'><a href='topics/electric-field-lines.html'>Electric Field Lines</a></li>
+            </ul>
+            <li class='list-group-item'>Chapter 22: Gauss's Law</li>
+            <ul>
+                <li class='section'><a href='topics/electric-flux.html'>Electric Flux</a></li>
+                <li class='section'><a href='topics/gauss-law.html'>Gauss's Law</a></li>
+                <li class='section'><a href='topics/symmetries.html'>Common Symmetries</a></li>
+                <li class='section'><a href='topics/gauss-conductors.html'>Gauss's Law and Conductors</a></li>
+            </ul>
+            <li class='list-group-item'>Chapter 23: Electric Potential</li>
+            <ul>
+                <li class='section'><a href='topics/pe-ke.html'>Potential Energy and Kinetic Energy</a></li>
+                <li class='section'><a href='topics/electric-potential.html'>Electric Potential</a></li>
+                <li class='section'><a href='topics/ep-from-ef.html'>Electric Potential from Electric Field</a></li>
+                <li class='section'><a href='topics/ep-from-pt-and-dist'>Electric Potential from Point Charges and Charge Distributions</a></li>
+                <li class='section'><a href='topics/ep-from-potential'>Electric Field from Potential</a></li>
+            </ul>
+            <li class='list-group-item'>Chapter 24: Capacitance, Dielectrics, Electric Energy Storage</li>
+            <ul>
+                <li class='section'><a href='topics/capacitors.html'>Capacitors and Related Circuit Symbols</a></li>
+                <li class='section'><a href='topics/capacitance.html'>Capacitance and How to Find It</a></li>
+            </ul>
+        </ul>   
+            
+    </div>
+-->
    
 </body>
